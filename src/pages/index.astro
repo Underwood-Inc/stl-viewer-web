@@ -1,0 +1,29 @@
+---
+// Component Imports
+import STLViewer from '../components/STLViewer';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>STL Viewer</title>
+	</head>
+	<body>
+		<main>
+			<h1>STL Viewer</h1>
+			<STLViewer client:load url="SemiPosableFacehugger-Body.stl" />
+		</main>
+	</body>
+</html>
+
+<style>
+	main {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 2rem;
+	}
+	h1 {
+		text-align: center;
+	}
+</style>
